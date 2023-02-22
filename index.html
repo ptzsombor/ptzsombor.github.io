@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li id="logo">Kaja<span>Blog</span></li>
+                <li>
+                    <span class="material-symbols-outlined">lunch_dining</span>
+                </li>
+                <li id="align-right">
+                    <div class="dropdown">
+                        <button class="dropbtn">Dropdown</button>
+                        <div class="dropdown-content">
+                          <a href="#newsletter">Hírlevél</a>
+                          <a href="https://www.mindmegette.hu/" target="_blank">Mindmegette</a>
+                          <a href="https://streetkitchen.hu/" target="_blank">Streetkitchen</a>
+                        </div>
+                      </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="food-cards">
+            <div id="upper-row">
+                <div class="card" onclick="location.href='//www.mindmegette.hu/gyros-tal-hazilag-egyszeruen.recept/';" id="smallbox">
+                    <img src="/assets/gyros.jpg" alt="gyros">
+                    <p>Gyrostál</p>
+                </div>
+                <div class="card" onclick="location.href='//streetkitchen.hu/street-kitchen/az-igazi-pad-thai/';" id="smallbox">
+                    <img src="/assets/padthai.jpg" alt="padthai">
+                    <p>Pad Thai</p>
+                </div>
+            </div>
+            <div id="middle-row">
+                <div class="card" onclick="location.href='//www.mindmegette.hu/gulyasleves-egyszeruen.recept/';" id="smallbox">
+                    <img src="/assets/gulyas.jpg" alt="gulyas">
+                    <p>Gulyás leves</p>
+                </div>
+                <div class="card" onclick="location.href='//www.mindmegette.hu/a-legjobb-palacsintateszta.recept/';" id="smallbox">
+                    <img src="/assets/palacsinta.jpg" alt="palacsinta">
+                    <p>Palacsinta</p>
+                </div>
+            </div>
+            <div id="bottom-row">
+                <div class="card" onclick="location.href='//www.nosalty.hu/recept/pesto-s-pasta-0/';" id="smallbox">
+                    <img src="/assets/pesto.jpg" alt="pesto">
+                    <p>Zöld pesto-s tészta</p>
+                </div>
+                <div class="card" onclick="location.href='//streetkitchen.hu/hust-hussal/piri-piri-csirke/';" id="smallbox">
+                    <img src="/assets/piripiri.jpg" alt="piripiri">
+                    <p>Piri piri csirkemell</p>
+                </div>
+            </div>
+        </section>
+        <section id="newsletter">
+            <div id="newsletter-child">
+                <h2>Iratkozz fel hírlevelünkre!</h2>
+                <p id="newsletter-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis fuga nostrum quae explicabo dolor id!
+                    Eligendi iste dignissimos saepe modi praesentium accusantium ab aspernatur aut expedita!
+                    Beatae debitis odit quidem.</p>
+            </div>
+            <div id="newsletter-second-child">
+                <form action="">
+                    <input type="email" placeholder="Email">
+                    <button>Feliratkozás</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p id="copy">Copyright © 2023</p>
+    </footer>
+</body>
+</html>
